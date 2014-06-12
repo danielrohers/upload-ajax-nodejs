@@ -22,9 +22,7 @@
 
     var _resolveResult = function (data) {
       if (data instanceof Array) {
-          util.each(data, function (file) {
-            _populateFile(file);
-          });
+          util.each(data, _populateFile);
         } else {
           _populateFile(data);
         }
