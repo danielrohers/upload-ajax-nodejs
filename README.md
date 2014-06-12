@@ -10,3 +10,7 @@
 
 * [Multer used for uploading files](https://www.npmjs.org/package/multer)
 * [Express](http://expressjs.com/guide.html#executable)
+
+### References
+[MDN XMLHttpRequest](https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHttpRequest)
+[MDN FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData)
