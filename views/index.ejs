@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload with AJAX</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+    <header id="header">
+      <h1>Upload with AJAX and Node.js</h1>
+    </header>
+    
+    <main id="main" role="main">
+  
+      <section>
+        <article>
+          <form method="POST" action="/upload" enctype="multipart/form-data">
+            
+            <label class="required" for="archive">Archive(s)</label>
+            <input id="archive" type="file" name="archive" multiple required >
+
+            <button type="button" class="submit">Submit</button>
+
+          </form>
+        </article>
+      </section>
+
+      <section class="result">
+        <ul>
+        </ul>
+      </section>
+
+    </main>
+
+    <script type="text/javascript" src="/javascripts/util.js"></script>
+    <script type="text/javascript" src="/javascripts/ajax.js"></script>
+    <script type="text/javascript" src="/javascripts/main.js"></script>
+  </body>
+</html>
