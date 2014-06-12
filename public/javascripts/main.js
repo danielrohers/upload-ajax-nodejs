@@ -14,7 +14,7 @@
 
         var data = ajax.serialize(d.forms[0].querySelectorAll('input'));
 
-        ajax.post('/upload', data, _resolveResult);
+        ajax.post('/upload', data).success(_resolveResult);
 
       });
 

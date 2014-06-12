@@ -30,7 +30,7 @@
     };
 
     var _post = function (url, data, callback) {
-      _send('POST', url, data).success(callback);
+      return _send('POST', url, data);
     };
 
     var _parse = function (req) {
