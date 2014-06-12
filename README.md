@@ -1,5 +1,7 @@
 # Upload with AJAX and Node.js
 
+Simple example of file upload with AJAX and Node.js
+
 ### Note javascripts
 
 [main.js](https://github.com/danielrohers/upload-ajax-nodejs/blob/master/public/javascripts/main.js)
